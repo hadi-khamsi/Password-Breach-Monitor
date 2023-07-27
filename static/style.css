@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+}
+
+.about-button {
+    color: #757575;
+    font-size: 18px;
+    margin: 25px 0px 0px 35px;
+}
+.return-button {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.breach-title {
+    font-style: 'Times New Roman';
+    font-size: 35px;
+    margin: 0;
+    color: #28282B
+}
+.footer {
+    background-color: #C4DBFA;
+    color: #757575;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 75px;
+    border: 1px solid #C4DBFA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7.5px;
+    background-color: #C4DBFA;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #757575;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3484F0;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 2.5px;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+    color: #DB4437;
+    font-weight: bold;
+}
+
+.text {
+    color: #757575;
+}
+
+.loading {
+    color: #28282B;
+    font-size: 25px;
+}

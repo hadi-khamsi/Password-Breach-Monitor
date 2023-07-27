@@ -16,4 +16,4 @@ def display_result(breach_status):
     return render_template('result.html', breach_status=breach_status)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000)

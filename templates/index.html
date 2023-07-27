@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Password Breach Checker</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Breach</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
 </head>
 <body>
+    <div class="header">
+        <a href="https://haveibeenpwned.com/API/v3#PwnedPasswords." class="about-button">About</a>
+    </div>
     <div class="container">
-        <h1>Password Breach Checker</h1>
+        <h1 class="breach-title">Breach™</h1>
         <form method="post" action="/">
-            <label for="password">Enter your password:</label>
+            <label class ='text' for="password">Verify Password Security:</label>
             <input type="password" id="password" name="password" required>
                         <!-- By default, HTML input element with type "password" displays
                 entered text as dots for privacy -->
@@ -16,4 +19,5 @@
         </form>
     </div>
 </body>
+<footer class="footer">Powered by PwnedPasswords™</footer>
 </html>
