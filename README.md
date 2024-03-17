@@ -1,4 +1,5 @@
-* See "Home/No-Breach/Yes-Breach.png" For a Working-Demo *
+See "Home/No-Breach/Yes-Breach.png" For a Working-Demo
+
 Password Breach Checker
 
 ---
