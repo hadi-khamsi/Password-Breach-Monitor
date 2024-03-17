@@ -34,7 +34,7 @@ _Usage_
 
 6. On the web page, enter the password you want to check and click the "Check Breach" button.
 
-7. he program will query the Pwned Passwords API and display the breach status of the password on the same webpage.
+7. The program will query the Pwned Passwords API and display the breach status of the password on the same webpage.
 
 ---
 
@@ -53,6 +53,7 @@ Please note that this program is intended for educational purposes and personal 
 _Dependencies_
 
 1. requests: This library is used for making HTTP requests to the Pwned Passwords API.
+2. hashlib: This library is used for hashing passwords securely.
 
 ---
 
@@ -62,4 +63,4 @@ The Password Breach Checker program was created by Hadi Khamsi. The original con
 
 For more information about the Pwned Passwords API and its usage terms, visit https://haveibeenpwned.com/API/v3#PwnedPasswords.
 
-Thank you for using the Password Breach Checker!
+Thank you for using my Password Breach Checker!
